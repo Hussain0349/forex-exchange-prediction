@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regression Model Prediction</title>
+</head>
+<body>
+    <h1>Enter Data for Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="open">Open:</label>
+        <input type="number" step="any" name="open" required><br><br>
+        <label for="high">High:</label>
+        <input type="number" step="any" name="high" required><br><br>
+        <label for="low">Low:</label>
+        <input type="number" step="any" name="low" required><br><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
